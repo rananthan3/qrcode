@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Title of the document</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="qrcode.js"></script>
+</head>
+
+<body>
+Click Anywhere on the Page to Multiply Two Numbers...Yeah!!!
+<h1></h1>
+<button>What is your name?</button></br>
+<p>Default Name</p></br>
+<button id="qrcode">Generate</button>
+
+<input id="text" type="text" value="Enter Text to QRize" style="width:80%" /><br />
+<div id="qrcode" style="width:100px; height:100px; margin-top:15px;"></div>
+<script src="main.js"></script>
+</body>
+
+</html> 
